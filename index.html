@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Benoît Balcon CV</title>
+</head>
+
+<body>
+    <main>
+        <div class="content">
+            <!-- <svg id="body" viewbox="0 0 139 498"></svg> -->
+            <svg id="body" width="100%" height="100%" viewbox="0 0 100 100">
+                <circle onClick="clickMe()" id="me" cx="61" cy="31" r="2" fill="transparent" style="cursor:hand;">
+                </circle>
+                <circle onClick="clickBackground()" id="background" cx="49" cy="31" r="2" fill="transparent"
+                    style="cursor:hand;"></circle>
+                <circle onClick="clickSkills()" id="skills" cx="28" cy="25" r="2" fill="transparent" style="cursor:hand;"></circle>
+                <circle onClick="clickExperience()" id="experience" cx="32" cy="19" r="2" fill="transparent" style="cursor:hand;"></circle>
+                <circle onClick="clickHobbies()" id="hobbies" cx="52" cy="25" r="2" fill="transparent" style="cursor:hand;"></circle>
+                <text x="1" y="10" style="font-size:0.075em;">M : Me</text>
+                <text x="1" y="13" style="font-size:0.075em;">B : Background</text>
+                <text x="1" y="16" style="font-size:0.075em;">S : Skills</text>
+                <text x="1" y="19" style="font-size:0.075em;">E : Experience</text>
+                <text x="1" y="22" style="font-size:0.075em;">H : Hobbies</text>
+            </svg>
+        </div>
+    </main>
+    <!-- the modal -->
+
+    <div id="myModalMe" class="modal">
+
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="aboutme"></p>
+        </div>
+    </div>
+
+    <div id="myModalBackground" class="modal">
+
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="aboutbackground"></p>
+        </div>
+    </div>
+
+    <div id="myModalSkills" class="modal">
+
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="aboutskills"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="text.js"></script>
+
+    <div id="myModalExperience" class="modal">
+
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="aboutexperience"></p>
+        </div>
+    </div>
+
+    <div id="myModalHobbies" class="modal">
+
+        <!-- modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="abouthobbies"></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="text.js"></script>
+
+</body>
+
+</html>
